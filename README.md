@@ -40,6 +40,3 @@ Run `test.py` for inference.
 
 The evaluation tool please follow: https://github.com/zzhanghub/eval-co-sod
 
-## Reproduction
-
-reproductions by myself on RTX3090 can be found at [reproduction1](https://drive.google.com/file/d/1vovii0RtYR_EC0Y2zxjY_cTWKWM3WaxP/view?usp=sharing).
