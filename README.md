@@ -34,7 +34,7 @@ CCINet
 
 ## Trained model
 
-trained model can be downloaded from [papermodel](https://drive.google.com/file/d/1cfuq4eJoCwvFR9W1XOJX7Y0ttd8TGjlp/view?usp=sharing).（要改）
+trained model can be downloaded from [papermodel](https://pan.baidu.com/s/1QcaoSwzq1ZAhDrmS2YZJKg?pwd=azxw ).
 
 Run `test.py` for inference.
 
