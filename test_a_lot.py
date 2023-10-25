@@ -38,16 +38,16 @@ def main(args):
         tensor2pil = transforms.ToPILImage()
         for testset in ['CoCA','CoSOD3k','CoSal2015']:
             if testset == 'CoCA':
-                test_img_path = '/home/huangjiu/projects/DCFM/data/images/CoCA/'
-                test_gt_path = '/home/huangjiu/projects/DCFM/data/gts/CoCA/'
+                test_img_path = './data/images/CoCA/'
+                test_gt_path = './data/gts/CoCA/'
                 saved_root = os.path.join(args.save_test_path_root_a_lot, module_name, 'CoCA')
             elif testset == 'CoSOD3k':
-                test_img_path = '/home/huangjiu/projects/DCFM/data/images/CoSOD3k/'
-                test_gt_path = '/home/huangjiu/projects/DCFM/data/gts/CoSOD3k/'
+                test_img_path = './data/images/CoSOD3k/'
+                test_gt_path = './data/gts/CoSOD3k/'
                 saved_root = os.path.join(args.save_test_path_root_a_lot, module_name, 'CoSOD3k')
             elif testset == 'CoSal2015':
-                test_img_path = '/home/huangjiu/projects/DCFM/data/images/CoSal2015/'
-                test_gt_path = '/home/huangjiu/projects/DCFM/data/gts/CoSal2015/'
+                test_img_path = './data/images/CoSal2015/'
+                test_gt_path = './data/gts/CoSal2015/'
                 saved_root = os.path.join(args.save_test_path_root_a_lot, module_name, 'CoSal2015')
             else:
                 print('Unkonwn test dataset')
