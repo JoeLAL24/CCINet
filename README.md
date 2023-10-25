@@ -12,7 +12,7 @@ trainset: COCO-SEG
 
 testset: CoCA, CoSOD3k, Cosal2015
 
-Put the [CoCo-SEG](https://drive.google.com/file/d/1GbA_WKvJm04Z1tR8pTSzBdYVQ75avg4f/view), [CoCA](http://zhaozhang.net/coca.html), [CoSOD3k](http://dpfan.net/CoSOD3K/) and [Cosal2015](https://drive.google.com/u/0/uc?id=1mmYpGx17t8WocdPcw2WKeuFpz6VHoZ6K&export=download) datasets to `CCINet/data` as the following structure:
+Put the [CoCo-SEG](https://pan.baidu.com/s/1-nxUm-3v24QfNaFnkDl6xA?pwd=mb5s), [CoCA](https://pan.baidu.com/s/1-nxUm-3v24QfNaFnkDl6xA?pwd=mb5s), [CoSOD3k](https://pan.baidu.com/s/1-nxUm-3v24QfNaFnkDl6xA?pwd=mb5s) and [Cosal2015](https://pan.baidu.com/s/1-nxUm-3v24QfNaFnkDl6xA?pwd=mb5s) datasets to `CCINet/data` as the following structure:
 
 ```
 CCINet
