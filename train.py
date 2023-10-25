@@ -64,8 +64,8 @@ config = Config()
 
 # Prepare dataset
 if args.trainset == 'CoCo':
-    train_img_path = '/home/huangjiu/projects/DCFM/data4/images/COCO9213-os/'
-    train_gt_path = '/home/huangjiu/projects/DCFM/data4/gts/COCO9213-os/'
+    train_img_path = './data/images/COCO9213-os/'
+    train_gt_path = './data/gts/COCO9213-os/'
     train_loader = get_loader(train_img_path,
                               train_gt_path,
                               args.size,
@@ -82,21 +82,21 @@ else:
 
 for testset in ['CoCA']:
     if testset == 'CoCA':
-        test_img_path = '/home/huangjiu/projects/DCFM/data/images/CoCA/'
-        test_gt_path = '/home/huangjiu/projects/DCFM/data/gts/CoCA/'
+        test_img_path = './data/data/images/CoCA/'
+        test_gt_path = './data/gts/CoCA/'
 
         saved_root = os.path.join(args.save_root, 'CoCA')
     elif testset == 'CoSOD3k':
-        test_img_path = '/home/huangjiu/projects/DCFM/data/images/CoSOD3k/'
-        test_gt_path = '/home/huangjiu/projects/DCFM/data/gts/CoSOD3k/'
+        test_img_path = './data/images/CoSOD3k/'
+        test_gt_path = './data/gts/CoSOD3k/'
         saved_root = os.path.join(args.save_root, 'CoSOD3k')
     elif testset == 'CoSal2015':
-        test_img_path = '/home/huangjiu/projects/DCFM/data/images/CoSal2015/'
-        test_gt_path = '/home/huangjiu/projects/DCFM/data/gts/CoSal2015/'
+        test_img_path = './data/images/CoSal2015/'
+        test_gt_path = './data/gts/CoSal2015/'
         saved_root = os.path.join(args.save_root, 'CoSal2015')
     elif testset == 'CoCo':
-        test_img_path = '/home/huangjiu/projects/DCFM/data/images/CoCo/'
-        test_gt_path = '/home/huangjiu/projects/DCFM/data/gts/CoCo/'
+        test_img_path = './data/images/CoCo/'
+        test_gt_path = './data/gts/CoCo/'
         saved_root = os.path.join(args.save_root, 'CoCo')
     else:
         print('Unkonwn test dataset')
@@ -226,7 +226,7 @@ def validate(model, test_loaders, testsets):
 
         eval_loader = EvalDataset(
             saved_root,  # preds
-            os.path.join('/home/huangjiu/projects/DCFM/data/gts', testset)  # GT
+            os.path.join('./data/gts', testset)  # GT
         )
         evaler = Eval_thread(eval_loader, cuda=True)
         # Use S_measure for validation
