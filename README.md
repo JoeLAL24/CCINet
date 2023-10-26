@@ -10,7 +10,7 @@ Co-saliency object detection simulates human attention behavior, which is dedica
 
 The pipeline of CCINet is shown in the figure below.
 
-
+![fig2high](https://github.com/JoeLAL24/CCINet/assets/100739402/4a388a2e-f405-4854-8f7a-aa656233434c)
 
 ## Environment Requirement
 
