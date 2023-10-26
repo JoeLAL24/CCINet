@@ -6,6 +6,12 @@ The official repo of the paper `A Cascaded Consensus Interaction Network for Co-
 
 Co-saliency object detection simulates human attention behavior, which is dedicated to find common salient objects in a group of related images. Previous methods usually lack the interaction among the extracted co-saliency information, leading to the detection maps being incomplete or redundant. In this paper, we propose a cascaded consensus interaction network (CCINet) for co-saliency object detection, which enhances the fusion and interaction among features to make full use of these co-saliency information. In the stage of encoding, we propose an edge semantic consensus (ESC) module, which integrates encoding information of the low layer and the high layer effectively, so that the obtained feature has both edge fine-grained information of the lower layer and rich semantic information of the high layer. ESC module initially screens and refines the co-saliency features, which helps to better detect the co-saliency region later. In the up-sampling stage, the cascaded contextual aggregation (CCA) module is proposed. It uses attention mechanism, adaptive average pooling and separation-dilated convolution to extract features thoroughly, which greatly reduces the noise interference while greatly controlling the number of parameters well. Extensive experiments show that our model achieves better performance than the excellent CoSOD methods in recent years under the three most popular benchmark datasets. Source code is available at https://github.com/JoeLAL24/CCINet.git.
 
+## Framework Overview
+
+The pipeline of CCINet is shown in the figure below.
+
+![](C:\Users\94752\Desktop\CCINet_Latex\fig2.png)
+
 ## Environment Requirement
 
 create environment and install as following: `pip install -r requirements.txt`
