@@ -10,7 +10,19 @@ Co-saliency object detection simulates human attention behavior, which is dedica
 
 The pipeline of CCINet is shown in the figure below.
 
-![fig2high](https://github.com/JoeLAL24/CCINet/assets/100739402/4a388a2e-f405-4854-8f7a-aa656233434c)
+
+
+## Result
+
+- Comparisons with the excellent CoSOD methods in recent years on three benchmarks, CoCA, Cosal2015 and CoSOD3k. The value of MAE is the smaller, the better. While others are the larger, the better. Black bold fonts indicates the best performance.
+
+
+
+- Ablation study:
+
+## Prediction
+
+
 
 ## Environment Requirement
 
@@ -52,4 +64,4 @@ The evaluation tool please follow: https://github.com/zzhanghub/eval-co-sod
 
 ## Reproduction
 
-reproductions by myself on RTX3090 can be found at [reproduction1](https://drive.google.com/file/d/1vovii0RtYR_EC0Y2zxjY_cTWKWM3WaxP/view?usp=sharing).
+reproductions by myself on RTX3090 can be found at [reproduction](https://drive.google.com/file/d/1cfuq4eJoCwvFR9W1XOJX7Y0ttd8TGjlp/view?usp=sharing).
