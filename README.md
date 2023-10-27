@@ -39,7 +39,7 @@ trainset: COCO-SEG
 
 testset: CoCA, CoSOD3k, Cosal2015
 
-Put the [CoCo-SEG](https://drive.google.com/file/d/1GbA_WKvJm04Z1tR8pTSzBdYVQ75avg4f/view), [CoCA](http://zhaozhang.net/coca.html), [CoSOD3k](http://dpfan.net/CoSOD3K/) and [Cosal2015](https://drive.google.com/u/0/uc?id=1mmYpGx17t8WocdPcw2WKeuFpz6VHoZ6K&export=download) datasets to `CCINet/data` as the following structure:
+Put the datasets ([gts](https://pan.baidu.com/s/1A0cklgxqK2yPtYI7GNY62Q?pwd=7xo7), [imgs](https://pan.baidu.com/s/1Bf3HfdDWMiV4MIaHu2MJQQ?pwd=scub)) to `CCINet/data` as the following structure:
 
 ```
 CCINet
@@ -61,7 +61,7 @@ CCINet
 
 ## Trained model
 
-trained model can be downloaded from [papermodel](https://drive.google.com/file/d/1cfuq4eJoCwvFR9W1XOJX7Y0ttd8TGjlp/view?usp=sharing).（要改）
+trained model can be downloaded from [papermodel](https://pan.baidu.com/s/1R-isw86_4UrCGNo2T2ubSg?pwd=koy2).
 
 Run `test.py` for inference.
 
@@ -69,4 +69,4 @@ The evaluation tool please follow: https://github.com/zzhanghub/eval-co-sod
 
 ## Reproduction
 
-reproductions by myself on RTX3090 can be found at [reproduction](https://drive.google.com/file/d/1cfuq4eJoCwvFR9W1XOJX7Y0ttd8TGjlp/view?usp=sharing).
+reproductions by myself on RTX3090 can be found at [reproduction](https://pan.baidu.com/s/1R-isw86_4UrCGNo2T2ubSg?pwd=koy2).
